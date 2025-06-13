@@ -1,1 +1,7 @@
 # FDTC
+Frequency domain generative diffusion model for temporal compressive coherent diffraction imaging  
+The Code is created based on the method described in the following paper:  
+Mei, Z., Xu, Y., Lin, J., Wang, Y., Wan, W., & Liu, Q. (2024). Frequency domain generative diffusion model for temporal compressive coherent diffraction imaging. Optics and Lasers in Engineering, 181, 108424.  
+https://www.sciencedirect.com/science/article/pii/S0143816624004020  
+## Abstract  
+Temporal compressive CDI utilizes single-exposure snapshot compression sampling in the frequency domain to visualize the dynamic process of CDI. Due to the lack of effective frequency domain prior information constraint, the traditional temporal compressive CDI method has limited imaging quality. In order to achieve high-quality dynamic reconstruction at high frame rates, a score-based diffusion model in frequency domain is used to extract the prior gradient distribution of the target in the complex frequency domain. Subsequently, this information is harmoniously woven into the physics-driven iterative phase recovery reconstruction process to restore multi-frame high-quality images. Simulation and experimental outcomes have demonstrated that the proposed technique surpasses conventional methods, delivering enhanced structural details and a reduction in artifact. The highest achieved PSNR and SSIM values are 37.25 dB and 0.997, respectively. The proposed method has equally well performance on targets across datasets, demonstrating the strong generalization of the method.
