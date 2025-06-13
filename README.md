@@ -27,6 +27,6 @@ jax==0.2.26
 CUDA_VISIBLE_DEVICES=0 python main.py --config=configs/ve/SIAT_kdata_ncsnpp.py --workdir=exp --mode=train --eval_folder=result（run in FDTC_Stage2）  
 ## Test  
 FDTC_Stage1:  
-python test.py（run in FDTC_Stage1）  
+python test.py  
 FDTC_Stage2:  
-python PCsampling_demo.py（run in FDTC_Stage2）  
+python PCsampling_demo.py  
