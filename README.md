@@ -24,9 +24,10 @@ jax==0.2.26
 ## Usage
 1.Download the all the files via [Baidu Drive](https://pan.baidu.com/s/10ionrg_120nQO9sJ2Iz6WA) (access code FDTC) and directly put the data in FDTC_Stage1 and FDTC_Stage2.  
 ## Train  
-CUDA_VISIBLE_DEVICES=0 python main.py --config=configs/ve/SIAT_kdata_ncsnpp.py --workdir=exp --mode=train --eval_folder=result（run in FDTC_Stage2）  
+```CUDA_VISIBLE_DEVICES=0 python main.py --config=configs/ve/SIAT_kdata_ncsnpp.py --workdir=exp --mode=train --eval_folder=result```（run in FDTC_Stage2）  
 ## Test  
 FDTC_Stage1:  
-python test.py  
+```python test.py```  
 FDTC_Stage2:  
-python PCsampling_demo.py  
+```python PCsampling_demo.py```
+
